@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/rectangle_header"
+        android:text="@string/rectangle_header"/>
+    <TextView
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/rectangle_description"
+        android:text="@string/rectangle_description"/>
+
+
+
+    <ImageView
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/image_rectangle_solid"
+        android:background="@drawable/shape_rectangle_solid"/>
+    <TextView
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="center|top"
+        android:id="@+id/rectangle_txt_solid"
+        android:text="@string/rectangle_txt_solid"/>
+
+
+
+    <ImageView
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/image_rectangle_gradient"
+        android:background="@drawable/shape_rectangle_gradient"/>
+    <TextView
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="center|top"
+        android:id="@+id/rectangle_txt_gradient"
+        android:text="@string/rectangle_txt_gradient"/>
+
+
+
+    <ImageView
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/image_rectangle_border_solid"
+        android:background="@drawable/shape_rectangle_border_filled"/>
+    <TextView
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_gravity="center|top"
+        android:id="@+id/rectangle_txt_border_solid"
+        android:text="@string/rectangle_txt_border_solid"/>
+
+
+
+    <ImageView
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/image_rectangle_border_dash"
+        android:background="@drawable/shape_rectangle_border_dash"/>
+    <TextView
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_gravity="center|top"
+        android:id="@+id/rectangle_txt_border_dash"
+        android:text="@string/rectangle_txt_border_dash"/>
+
+
+
+    <ImageView
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/image_rectangle_rounded_corner"
+        android:background="@drawable/shape_rectangle_rounded_corner"/>
+    <TextView
+        android:layout_row="7"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center|top"
+        android:id="@+id/rectangle_txt_rounded_corner"
+        android:text="@string/rectangle_txt_rounded_corner"/>
+
+</GridLayout>

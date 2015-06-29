@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Shapes Activity -->
+    <string name="shape_header">Shape Drawable</string>
+    <string name="shape_description">Click a shape to view more variations of the selected shape.</string>
+    <string name="shape_txt_rectangle">Rectangle</string>
+    <string name="shape_txt_oval">Oval</string>
+    <string name="shape_txt_line">Line</string>
+    <string name="shape_txt_ring">Ring</string>
+
+    <!-- Rectangle Variations -->
+    <string name="rectangle_header">Rectangle Shape Variations</string>
+    <string name="rectangle_description">Below are different variations of the rectangle drawables.</string>
+    <string name="rectangle_txt_solid">Solid Rectangle</string>
+    <string name="rectangle_txt_gradient">Gradient Rectangle</string>
+    <string name="rectangle_txt_border_solid">Solid Border Rectangle</string>
+    <string name="rectangle_txt_border_dash">Dash Border Rectangle</string>
+    <string name="rectangle_txt_rounded_corner">Round Cornered Rectangle</string>
+
+    <!-- Oval Variations -->
+    <string name="oval_header">Oval Shape Variations</string>
+    <string name="oval_description">Below are different variations of the oval drawables.</string>
+    <string name="oval_txt_solid">Solid Oval</string>
+    <string name="oval_txt_gradient">Gradient Oval</string>
+    <string name="oval_txt_border_solid">Solid Border Oval</string>
+    <string name="oval_txt_border_dash">Dash Border Oval</string>
+
+    <!-- Line Variations -->
+    <string name="line_header">Line Shape Variations</string>
+    <string name="line_description">Below are different variations of the line drawables.</string>
+    <string name="line_txt_solid">Solid Line</string>
+    <string name="line_txt_dash">Dash Line</string>
+    <string name="line_txt_gradient">Gradient Line</string>
+
+    <!-- Ring Variations -->
+    <string name="ring_header">Ring Shape Variations</string>
+    <string name="ring_description">Below are different variations of the ring drawables.</string>
+    <string name="ring_txt_solid">Solid Ring</string>
+    <string name="ring_txt_solid_thick">Thick Solid Inner Ring</string>
+    <string name="ring_txt_dash">Dash Ring</string>
+    <string name="ring_txt_dash_thick">Thick Dash Inner Ring</string>
+    <string name="ring_txt_filled">Filled Ring</string>
+    <string name="ring_txt_filled_thick">Thick Filled Ring</string>
+
+</resources>

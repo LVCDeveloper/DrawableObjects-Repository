@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <size
+        android:width="@dimen/shape_rectangle_width"
+        android:height="@dimen/shape_rectangle_height" />
+
+    <solid
+        android:color="@color/rectangle_color" />
+
+    <stroke
+        android:width="@dimen/shape_stroke_size"
+        android:dashWidth="@dimen/shape_stroke_dash"
+        android:dashGap="@dimen/shape_stroke_gap"
+        android:color="@color/black" />
+
+</shape>

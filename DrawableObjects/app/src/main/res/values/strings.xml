@@ -1,0 +1,32 @@
+<resources>
+    <!-- Titles -->
+    <string name="app_name">Luong\'s Drawable Objects Demo: Learning the API</string>
+    <string name="app_bitmap">Drawable Demo: Bitmap File</string>
+    <string name="app_ninepatch">Drawable Demo: Nine-Patch File</string>
+    <string name="app_layerlist">Drawable Demo: Layer List</string>
+    <string name="app_statelist">Drawable Demo: State List</string>
+    <string name="app_levellist">Drawable Demo: Level List</string>
+    <string name="app_transition">Drawable Demo: Transition Drawable</string>
+    <string name="app_insert">Drawable Demo: Insert Drawable</string>
+    <string name="app_clip">Drawable Demo: Clip Drawable</string>
+    <string name="app_scale">Drawable Demo: Scale Drawable</string>
+    <string name="app_shape">Drawable Demo: Shape Drawable</string>
+
+    <!-- Action Bars -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Activity -->
+    <string name="main_txt_header">Drawable Resources Activities</string>
+    <string name="main_txt_description">Click to start an activity displaying examples of different type of drawable resource.</string>
+    <string name="main_btn_bitmap">1. Bitmap File</string>
+    <string name="main_btn_ninepatch">2. Nine-Patch File</string>
+    <string name="main_btn_layerlist">3. Layer List</string>
+    <string name="main_btn_statelist">4. State List</string>
+    <string name="main_btn_levellist">5. Level List</string>
+    <string name="main_btn_transition">6. Transition Drawable</string>
+    <string name="main_btn_insert">7. Insert Drawable</string>
+    <string name="main_btn_clip">8. Clip Drawable</string>
+    <string name="main_btn_scale">9. Scale Drawable</string>
+    <string name="main_btn_shape">10. Shape Drawable</string>
+
+</resources>

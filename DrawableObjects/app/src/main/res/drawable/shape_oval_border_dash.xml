@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <size
+        android:width="@dimen/shape_oval_width"
+        android:height="@dimen/shape_oval_height" />
+
+    <gradient
+        android:startColor="@color/oval_color"
+        android:endColor="@color/white"
+        android:type="radial"
+        android:gradientRadius="@dimen/shape_gradient_radius_dark" />
+
+    <stroke
+        android:width="@dimen/shape_stroke_size"
+        android:dashWidth="@dimen/shape_stroke_dash"
+        android:dashGap="@dimen/shape_stroke_gap"
+        android:color="@color/black" />
+
+</shape>

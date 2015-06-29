@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="rectangle_color" type="color">@color/red</item>
+    <item name="oval_color" type="color">@color/green</item>
+    <item name="line_color" type="color">@color/yellow</item>
+    <item name="ring_color" type="color">@color/blue</item>
+    <item name="ring_fill_color" type="color">@color/cyan</item>
+
+</resources>
