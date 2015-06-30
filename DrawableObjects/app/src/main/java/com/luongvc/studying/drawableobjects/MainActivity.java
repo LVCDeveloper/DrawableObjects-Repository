@@ -88,16 +88,16 @@ public class MainActivity
     {
         Log.d( TAG , "initViewControls()" );
 
-        btnBitmap       = (Button)findViewById( R.id.btnBitmap );
-        btnNinePatch    = (Button)findViewById( R.id.btnNinePatch );
-        btnLayerList    = (Button)findViewById( R.id.btnLayerList );
-        btnStateList    = (Button)findViewById( R.id.btnStateList );
-        btnLevelList    = (Button)findViewById( R.id.btnLevelList );
-        btnTransition   = (Button)findViewById( R.id.btnTransition );
-        btnInsert       = (Button)findViewById( R.id.btnInsert );
-        btnClip         = (Button)findViewById( R.id.btnClip );
-        btnScale        = (Button)findViewById( R.id.btnScale );
-        btnShape        = (Button)findViewById( R.id.btnShape );
+        btnBitmap       = (Button)findViewById( R.id.main_btn_bitmap );
+        btnNinePatch    = (Button)findViewById( R.id.main_btn_ninepatch );
+        btnLayerList    = (Button)findViewById( R.id.main_btn_layerlist );
+        btnStateList    = (Button)findViewById( R.id.main_btn_statelist );
+        btnLevelList    = (Button)findViewById( R.id.main_btn_levellist );
+        btnTransition   = (Button)findViewById( R.id.main_btn_transition );
+        btnInsert       = (Button)findViewById( R.id.main_btn_insert );
+        btnClip         = (Button)findViewById( R.id.main_btn_clip );
+        btnScale        = (Button)findViewById( R.id.main_btn_scale );
+        btnShape        = (Button)findViewById( R.id.main_btn_shape );
     }
 
     // This methods will setup the view controls listerner
@@ -105,6 +105,17 @@ public class MainActivity
     protected void regViewListeners()
     {
         Log.d( TAG , "regViewListeners()" );
+
+        btnBitmap.setOnClickListener( new View.OnClickListener()
+        {
+            @Override
+            public void onClick( View v )
+            {
+                Log.d( TAG , "Starting bitmap activity." );
+                Intent bitmapActivity = new Intent( getBaseContext() , BitmapActivity.class );
+                startActivity( bitmapActivity );
+            }
+        } );
 
         btnShape.setOnClickListener( new View.OnClickListener()
         {
@@ -124,7 +135,6 @@ public class MainActivity
     {
         Log.d( TAG , "crossoutText()" );
 
-        btnBitmap.setPaintFlags( btnBitmap.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnNinePatch.setPaintFlags( btnNinePatch.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnLayerList.setPaintFlags( btnLayerList.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnStateList.setPaintFlags( btnStateList.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );

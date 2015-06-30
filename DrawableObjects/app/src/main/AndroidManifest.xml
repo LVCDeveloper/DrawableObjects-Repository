@@ -19,6 +19,14 @@
         </activity>
 
         <activity
+            android:name=".BitmapActivity"
+            android:label="@string/app_bitmap" >
+            <intent-filter>
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".ShapeActivity"
             android:label="@string/app_shape" >
             <intent-filter>

@@ -20,13 +20,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/separator_margin"
         android:textAppearance="?android:textAppearanceSmall"
         android:id="@+id/main_txt_description"
         android:text="@string/main_txt_description" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
 
 
@@ -42,70 +39,70 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnBitmap"
+                android:id="@+id/main_btn_bitmap"
                 android:text="@string/main_btn_bitmap"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnNinePatch"
+                android:id="@+id/main_btn_ninepatch"
                 android:text="@string/main_btn_ninepatch"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnLayerList"
+                android:id="@+id/main_btn_layerlist"
                 android:text="@string/main_btn_layerlist"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnStateList"
+                android:id="@+id/main_btn_statelist"
                 android:text="@string/main_btn_statelist"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnLevelList"
+                android:id="@+id/main_btn_levellist"
                 android:text="@string/main_btn_levellist"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnTransition"
+                android:id="@+id/main_btn_transition"
                 android:text="@string/main_btn_transition"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnInsert"
+                android:id="@+id/main_btn_insert"
                 android:text="@string/main_btn_insert"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnClip"
+                android:id="@+id/main_btn_clip"
                 android:text="@string/main_btn_clip"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnScale"
+                android:id="@+id/main_btn_scale"
                 android:text="@string/main_btn_scale"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:id="@+id/btnShape"
+                android:id="@+id/main_btn_shape"
                 android:text="@string/main_btn_shape"/>
         </LinearLayout>
     </ScrollView>

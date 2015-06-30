@@ -2,7 +2,7 @@ Drawable Objects, or Luong\'s Drawable Objects Demo: Learning the API, is basica
 
 Drawable Resource:
 
-1. Bitmap File
+1. Bitmap File (Completed)
 
 2. Nine-Patch File
 

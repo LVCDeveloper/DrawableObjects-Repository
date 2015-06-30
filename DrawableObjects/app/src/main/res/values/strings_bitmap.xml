@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Bitmap Activity -->
+    <string name="bitmap_txt_header">Bitmap Drawable</string>
+    <string name="bitmap_txt_description">Click the button to load an image with the corresponding image format.</string>
+    <string name="bitmap_btn_png">.png</string>
+    <string name="bitmap_btn_jpg">.jpg</string>
+
+</resources>

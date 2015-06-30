@@ -2,8 +2,8 @@
 <resources>
 
     <!-- Shapes Activity -->
-    <string name="shape_header">Shape Drawable</string>
-    <string name="shape_description">Click a shape to view more variations of the selected shape.</string>
+    <string name="shape_txt_header">Shape Drawable</string>
+    <string name="shape_txt_description">Click a shape to view more variations of the selected shape.</string>
     <string name="shape_txt_rectangle">Rectangle</string>
     <string name="shape_txt_oval">Oval</string>
     <string name="shape_txt_line">Line</string>
