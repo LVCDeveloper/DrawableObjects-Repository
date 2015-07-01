@@ -6,7 +6,7 @@ Drawable Resource:
 
 2. Nine-Patch File (Completed)
 
-3. Layer List
+3. Layer List (Completed)
 
 4. State List
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layerlist dimensions -->
+    <integer name="layerlist_box_gradient_angle">45</integer>
+    
+</resources>

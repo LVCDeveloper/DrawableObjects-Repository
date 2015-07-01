@@ -111,7 +111,7 @@ public class MainActivity
             @Override
             public void onClick( View v )
             {
-                Log.i( TAG , "Starting bitmap activity." );
+                Log.i( TAG, "Starting bitmap activity." );
                 Intent bitmapActivity = new Intent( getBaseContext(), BitmapActivity.class );
                 startActivity( bitmapActivity );
             }
@@ -125,6 +125,17 @@ public class MainActivity
                 Log.i( TAG , "Starting ninepatch activity." );
                 Intent ninepatchActivity = new Intent( getBaseContext() , NinepatchActivity.class );
                 startActivity( ninepatchActivity );
+            }
+        } );
+
+        btnLayerList.setOnClickListener( new View.OnClickListener()
+        {
+            @Override
+            public void onClick( View v )
+            {
+                Log.i( TAG , "Starting layerlist activity." );
+                Intent layerlistActivity = new Intent( getBaseContext() , LayerlistActivity.class );
+                startActivity( layerlistActivity );
             }
         } );
 
@@ -146,7 +157,6 @@ public class MainActivity
     {
         Log.d( TAG, "crossoutText()" );
 
-        btnLayerList.setPaintFlags( btnLayerList.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnStateList.setPaintFlags( btnStateList.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnLevelList.setPaintFlags( btnLevelList.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnTransition.setPaintFlags( btnTransition.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );

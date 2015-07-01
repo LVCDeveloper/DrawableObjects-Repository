@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/layerlist_txt_header"
+        android:text="@string/layerlist_txt_header"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/separator_margin"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/layerlist_txt_description"
+        android:text="@string/layerlist_txt_description"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/separator_margin"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/layerlist_txt_shape"
+        android:text="@string/layerlist_txt_shape"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/layerlist_img_boxes"
+        android:src="@drawable/layerlist_image_shape_boxes"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/separator_margin"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/layerlist_txt_bitmap"
+        android:text="@string/layerlist_txt_bitmap"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/layerlist_img_blobs"
+        android:src="@drawable/layerlist_image_bitmap_blobs"/>
+
+</LinearLayout>

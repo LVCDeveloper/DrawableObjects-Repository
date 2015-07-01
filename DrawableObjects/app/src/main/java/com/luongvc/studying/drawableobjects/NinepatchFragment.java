@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 // This fragment will display a variety of view controls using a ninepatch image as a border.
 //
@@ -30,4 +31,6 @@ public class NinepatchFragment
 
         return view;
     }
+
+
 }

@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 // This fragment will display the variation of bitmap drawables.
 //
@@ -26,6 +27,12 @@ public class BitmapFragment
     private Button mBtnPng;
     private Button mBtnJpg;
     private ImageView mImgDisplay;
+
+    //////////////////////////////////////////////////
+    // Data Members
+
+    private boolean mIsPng = false;
+    private boolean mIsJpg = false;
 
     //////////////////////////////////////////////////
     // Override Methods
@@ -69,6 +76,8 @@ public class BitmapFragment
             public void onClick( View v )
             {
                 displayPngImage();
+                mIsPng = true;
+                mIsJpg = false;
             }
         } );
 
@@ -78,6 +87,26 @@ public class BitmapFragment
             public void onClick( View v )
             {
                 displayJpgImage();
+                mIsPng = false;
+                mIsJpg = true;
+            }
+        } );
+
+        mImgDisplay.setOnClickListener( new View.OnClickListener()
+        {
+            @Override
+            public void onClick( View v )
+            {
+                if( mIsPng == true )
+                {
+                    Toast.makeText( getActivity() , "PNG Image File" , Toast.LENGTH_SHORT )
+                            .show();
+                }
+                else if( mIsJpg == true )
+                {
+                    Toast.makeText( getActivity() , "JPG Image File" , Toast.LENGTH_SHORT )
+                            .show();
+                }
             }
         } );
     }

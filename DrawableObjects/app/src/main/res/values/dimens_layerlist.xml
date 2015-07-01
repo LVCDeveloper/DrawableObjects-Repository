@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layerlist shape dimensions -->
+    <dimen name="layerlist_box_stroke_size">2dp</dimen>
+    <dimen name="layerlist_box_width">100dp</dimen>
+    <dimen name="layerlist_box_height">100dp</dimen>
+
+
+    <!-- Layerlist boxes positioin -->
+    <dimen name="layerlist_box_red_padding_top">0dp</dimen>
+    <dimen name="layerlist_box_red_padding_left">0dp</dimen>
+    <dimen name="layerlist_box_red_padding_bottom">20dp</dimen>
+    <dimen name="layerlist_box_red_padding_right">50dp</dimen>
+
+    <dimen name="layerlist_box_green_padding_top">10dp</dimen>
+    <dimen name="layerlist_box_green_padding_left">25dp</dimen>
+    <dimen name="layerlist_box_green_padding_bottom">10dp</dimen>
+    <dimen name="layerlist_box_green_padding_right">25dp</dimen>
+
+    <dimen name="layerlist_box_blue_padding_top">20dp</dimen>
+    <dimen name="layerlist_box_blue_padding_left">50dp</dimen>
+    <dimen name="layerlist_box_blue_padding_bottom">0dp</dimen>
+    <dimen name="layerlist_box_blue_padding_right">0dp</dimen>
+
+    <!-- Layerlist blob position -->
+    <dimen name="layerlist_blob_red_padding_top">0dp</dimen>
+    <dimen name="layerlist_blob_red_padding_left">-100dp</dimen>
+
+    <dimen name="layerlist_blob_green_padding_top">10dp</dimen>
+    <dimen name="layerlist_blob_green_padding_left">0dp</dimen>
+
+    <dimen name="layerlist_blob_blue_padding_top">20dp</dimen>
+    <dimen name="layerlist_blob_blue_padding_left">100dp</dimen>
+
+</resources>

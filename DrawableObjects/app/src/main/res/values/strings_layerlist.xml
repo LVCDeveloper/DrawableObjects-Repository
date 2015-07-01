@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Layerlist view controls -->
+    <string name="layerlist_txt_header">XML LayerList</string>
+    <string name="layerlist_txt_description">Below is an example of the usages of XML Layerlist to display multiple images on top of each other.</string>
+    <string name="layerlist_txt_shape">Layer-List using Shapes</string>
+    <string name="layerlist_txt_bitmap">Layer-List using Bitmap</string>
+    
+</resources>

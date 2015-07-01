@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 
-// This activity will demonstrate the use of drawable shape.
+// This activity will demonstrate the use of shape drawables.
 //
 public class ShapeActivity
     extends Activity

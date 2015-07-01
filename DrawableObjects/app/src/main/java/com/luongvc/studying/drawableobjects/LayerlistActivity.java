@@ -7,15 +7,15 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 
-// This activity will demonstrate the user of xml ninepatch.
+// This activity will demonstrate the usages of layer list.
 //
-public class NinepatchActivity
+public class LayerlistActivity
     extends Activity
 {
     //////////////////////////////////////////////////
     // Constant Data Members
 
-    private final static String TAG = NinepatchActivity.class.getSimpleName();
+    private final static String TAG = LayerlistActivity.class.getSimpleName();
 
     //////////////////////////////////////////////////
     // Override Methods
@@ -24,15 +24,14 @@ public class NinepatchActivity
     public void onCreate( Bundle savedInstanceState )
     {
         Log.d( TAG , "onCreate()" );
-
         super.onCreate( savedInstanceState );
 
-        // Setup the action bar so that the icon is clickable
+        // Setup actionbar to have a clickable icon
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled( true );
 
-        // Create and setup Nine-patch fragment
-        NinepatchFragment fragment = new NinepatchFragment();
+        // Create and display fragment
+        LayerlistFragment fragment = new LayerlistFragment();
         getFragmentManager().beginTransaction()
                 .add( android.R.id.content ,
                         fragment , fragment.getClass().getSimpleName() )
@@ -44,10 +43,10 @@ public class NinepatchActivity
     {
         Log.d( TAG , "onOptionsItemSelected()" );
 
-        switch ( item.getItemId() )
+        switch( item.getItemId() )
         {
             case android.R.id.home:
-                Log.i( TAG , "Starting home activity" );
+                Log.i( TAG , "Starting home activity." );
                 Intent homeActivity = new Intent( this , MainActivity.class )
                         .setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
                 startActivity( homeActivity );
