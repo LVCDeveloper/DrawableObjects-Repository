@@ -7,16 +7,15 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 
-// This bitmap activity will demonstrate the use of bitmap drawable to display images in both
-// png and jpg format.
+// This activity will demonstrate the user of ninepatch drawables.
 //
-public class BitmapActivity
+public class NinepatchActivity
     extends Activity
 {
     //////////////////////////////////////////////////
     // Constant Data Members
 
-    private static final String TAG = BitmapActivity.class.getSimpleName();
+    private final static String TAG = NinepatchActivity.class.getSimpleName();
 
     //////////////////////////////////////////////////
     // Override Methods
@@ -24,34 +23,34 @@ public class BitmapActivity
     @Override
     public void onCreate( Bundle savedInstanceState )
     {
-        Log.d( TAG, "onCreate()" );
+        Log.d( TAG , "onCreate()" );
+
         super.onCreate( savedInstanceState );
 
-        // Create and add Bitmap fragment
-        BitmapFragment fragment = new BitmapFragment();
+        // Setup the action bar so that the icon is clickable
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled( true );
+
+        // Create and setup Nine-patch fragment
+        NinepatchFragment fragment = new NinepatchFragment();
         getFragmentManager().beginTransaction()
                 .add( android.R.id.content ,
                         fragment , fragment.getClass().getSimpleName() )
                 .commit();
-
-        // Setup ActionBar so that the title icon is clickable
-        ActionBar actionBar = getActionBar();
-        actionBar.setDisplayHomeAsUpEnabled( true );
     }
 
     @Override
     public boolean onOptionsItemSelected( MenuItem item )
     {
-        Log.d( TAG , "onOptionsItemSelected" );
+        Log.d( TAG , "onOptionsItemSelected()" );
 
-        switch( item.getItemId() )
+        switch ( item.getItemId() )
         {
             case android.R.id.home:
                 Log.i( TAG , "Starting home activity" );
                 Intent homeActivity = new Intent( this , MainActivity.class )
                         .setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
                 startActivity( homeActivity );
-                break;
         }
 
         return super.onOptionsItemSelected( item );

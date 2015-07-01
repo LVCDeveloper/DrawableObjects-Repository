@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ninepatch_txt_header">Nine-patch Files</string>
+    <string name="ninepatch_txt_description">Below are some examples of view controls making use of nine-patch files to create borders.</string>
+
+    <string name="ninepatch_txt_textbox">Textbox</string>
+    <string name="ninepatch_tb_textbox_hint">Enter your text...</string>
+
+    <string name="ninepatch_txt_dropdownlist">Dropdownlist (Spinner)</string>
+    <string-array name="ninepatch_spn_dropdownlist">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+
+    <string name="ninepatch_txt_radio">Radio Groups &amp; Radio Buttons</string>
+    <string name="ninepatch_rb_radio_1">Item 1</string>
+    <string name="ninepatch_rb_radio_2">Item 2</string>
+    <string name="ninepatch_rb_radio_3">Item 3</string>
+
+    <string name="ninepatch_txt_checkbox">Checkbox</string>
+    <string name="ninepatch_cb_checkbox_1">Item 1</string>
+    <string name="ninepatch_cb_checkbox_2">Item 2</string>
+    <string name="ninepatch_cb_checkbox_3">Item 3</string>
+
+    <string name="ninepatch_txt_switch">Switch Button</string>
+
+    <string name="ninepatch_txt_toggle">Toggle Button</string>
+    <string name="ninepatch_tgb_on">Toggle On</string>
+    <string name="ninepatch_tgb_off">Toggle Off</string>
+
+    <string name="ninepatch_txt_ratings">Ratings</string>
+
+    <string name="ninepatch_txt_slider">Slider</string>
+
+    <string name="ninepatch_txt_progressbar">Progress Bar</string>
+
+</resources>

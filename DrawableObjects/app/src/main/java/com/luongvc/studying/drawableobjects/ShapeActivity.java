@@ -12,7 +12,7 @@ import android.view.MenuItem;
 //
 public class ShapeActivity
     extends Activity
-    implements ShapeVarietyFragment.ShapeVarietyFragmentListener ,
+    implements ShapeFragment.ShapeFragmentListener ,
         ShapeVariationFragment.ShapeVariationFragmentListener
 {
     //////////////////////////////////////////////////
@@ -30,7 +30,7 @@ public class ShapeActivity
         super.onCreate( savedInstanceState);
 
         // Setup Fragment
-        ShapeVarietyFragment fragment = new ShapeVarietyFragment();
+        ShapeFragment fragment = new ShapeFragment();
         getFragmentManager().beginTransaction()
                 .add( android.R.id.content ,
                         fragment , fragment.getClass().getSimpleName() )
@@ -49,7 +49,7 @@ public class ShapeActivity
         switch( item.getItemId() )
         {
             case android.R.id.home:
-                Log.d( TAG , "Starting home activity." );
+                Log.i( TAG , "Starting home activity." );
                 Intent homeActivity = new Intent( this , MainActivity.class )
                         .setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
                 startActivity( homeActivity );
@@ -69,20 +69,20 @@ public class ShapeActivity
         Fragment fragment = null;
         switch( shape )
         {
-            case ShapeVarietyFragment.RECTANGLE:
+            case ShapeFragment.RECTANGLE:
                 fragment = new ShapeRectangleFragment();
                 break;
-            case ShapeVarietyFragment.OVAL:
+            case ShapeFragment.OVAL:
                 fragment = new ShapeOvalFragment();
                 break;
-            case ShapeVarietyFragment.LINE:
+            case ShapeFragment.LINE:
                 fragment = new ShapeLineFragment();
                 break;
-            case ShapeVarietyFragment.RING:
+            case ShapeFragment.RING:
                 fragment = new ShapeRingFragment();
                 break;
             default:
-                fragment = new ShapeVarietyFragment();
+                fragment = new ShapeFragment();
                 break;
         }
 

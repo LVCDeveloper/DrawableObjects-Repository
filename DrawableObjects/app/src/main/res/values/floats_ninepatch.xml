@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- View Controls Value -->
+    <item name="ninepatch_rtg_steps" type="integer" format="float">0.5</item>
+    <item name="ninepatch_rtg_ratings" type="integer" format="float">3.0</item>
+
+</resources>

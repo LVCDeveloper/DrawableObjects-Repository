@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- View Controls Value -->
+    <integer name="ninepatch_rtg_stars">5</integer>
+    <integer name="ninepatch_pb_max">100</integer>
+    <integer name="ninepatch_pb_progress">50</integer>
+
+</resources>

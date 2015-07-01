@@ -4,7 +4,7 @@ Drawable Resource:
 
 1. Bitmap File (Completed)
 
-2. Nine-Patch File
+2. Nine-Patch File (Completed)
 
 3. Layer List
 

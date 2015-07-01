@@ -111,9 +111,20 @@ public class MainActivity
             @Override
             public void onClick( View v )
             {
-                Log.d( TAG , "Starting bitmap activity." );
-                Intent bitmapActivity = new Intent( getBaseContext() , BitmapActivity.class );
+                Log.i( TAG , "Starting bitmap activity." );
+                Intent bitmapActivity = new Intent( getBaseContext(), BitmapActivity.class );
                 startActivity( bitmapActivity );
+            }
+        } );
+
+        btnNinePatch.setOnClickListener( new View.OnClickListener()
+        {
+            @Override
+            public void onClick( View v )
+            {
+                Log.i( TAG , "Starting ninepatch activity." );
+                Intent ninepatchActivity = new Intent( getBaseContext() , NinepatchActivity.class );
+                startActivity( ninepatchActivity );
             }
         } );
 
@@ -122,7 +133,7 @@ public class MainActivity
             @Override
             public void onClick( View v )
             {
-                Log.d( TAG , "Starting shape activity." );
+                Log.i( TAG , "Starting shape activity." );
                 Intent shapeActivity = new Intent( getBaseContext() , ShapeActivity.class );
                 startActivity( shapeActivity );
             }
@@ -133,9 +144,8 @@ public class MainActivity
     //
     protected void crossoutText()
     {
-        Log.d( TAG , "crossoutText()" );
+        Log.d( TAG, "crossoutText()" );
 
-        btnNinePatch.setPaintFlags( btnNinePatch.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnLayerList.setPaintFlags( btnLayerList.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnStateList.setPaintFlags( btnStateList.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );
         btnLevelList.setPaintFlags( btnLevelList.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG );

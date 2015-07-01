@@ -21,4 +21,8 @@
     <dimen name="shape_line_thickness">4dp</dimen>
     <dimen name="shape_ring_radius">30dp</dimen>
     <dimen name="shape_ring_thickness">10dp</dimen>
+
+    <!-- Ninepatch view controls dimensions -->
+    <dimen name="ninepatch_rtg_size">258dp</dimen>
+
 </resources>
